@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css" />
+        <meta charset="utf-8">
+        <title>Challenge: Stopwatch</title>
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="timerContainer showStartScreen show">
+              <div class="timerCard">
+                <div>
+                  <div class="timerTextContainer">
+                    <p class="timerLabel">timer</p>
+      
+                    <input
+                      class="timeCount timerCount"
+                      type="text"
+                      placeholder="25:00"
+                      maxlength="5"
+                    />
+                  </div>
+      
+                  <div class="timerTextContainer">
+                    <p class="timerLabel">break</p>
+                    <input
+                      class="breakCount timerCount"
+                      type="text"
+                      placeholder="05:00"
+                      maxlength="5"
+                    />
+                  </div>
+                </div>
+      
+                <button class="startButton">
+                  <img src="src/pause.svg" />
+                </button>
+                <button class="roundButton playButton hide">
+                    <img src="src/play.svg" />
+                  </button>
+
+              </div>
+            
+             
+          </div>
+
+          
+          <div class="timerContainer showTimerScreen">
+            <div class="timerScreenCard">
+              <div>
+                <!-- <button class="roundButton pauseButton hide">
+                  <img src="src/pause.svg" />
+                </button> -->
+                
+                <div class="timerWrapper">
+                  <div class="timerScreenContainer">
+                    <p class="timerScreenCounter">00:00</p>
+                    <p class="timerScreenLabel">until break</p>
+                  </div>
+                  <!-- <div class="progressBarContainer">
+                    <div class="progressBarMeter"></div>
+                  </div> -->
+                </div>
+              </div>
+              <button class="stopButton bigStopButton">Reset</button>
+              <div class="featureAnnoucementWrapper"></div>
+            </div>
+          </div>
+
+
+          </div>
+
+          
+          
+       <script  src="./script.js"></script>
+    </body>
+</html>
