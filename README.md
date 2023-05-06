@@ -11,3 +11,5 @@ Github: https://github.com/shaikhashad35/Pomodoro-Extension
 It have timer which is by default of 25 min (it can be change) and have 5 min break by default. 
 
 So basically after every 25 min, break will start for 5 min ; both time left can be seen though the extension.
+
+Extension Link: https://chrome.google.com/webstore/detail/podomoro-technique/fgjbhcjkhdmenppmmhgfagglefcfghio?hl=en
